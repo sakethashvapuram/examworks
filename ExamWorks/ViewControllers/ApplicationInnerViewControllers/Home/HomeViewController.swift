@@ -35,6 +35,8 @@ class HomeViewController: BaseViewController,ButtonDelegate, UITableViewDataSour
         formatter.dateFormat = "dd/MM/yyyy"
         let date_today = formatter.string(from: date as Date)
         
+        print("Murali sai chowdary")
+        
         self.view.backgroundColor = UIColor.white
         self.view.frame = CGRect(x: self.view.frame.origin.x, y: self.view.frame.origin.y, width: UIScreen.main.bounds.size.width, height: self.view.frame.size.height)
         var width_Lbls:CGFloat!
