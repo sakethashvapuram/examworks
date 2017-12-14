@@ -37,7 +37,7 @@ class CaseListViewController: BaseViewController,UITableViewDataSource, UITableV
         label_title.textColor = UIColor.white
         label_title.text = "Case List"
         self.navigationItem.titleView = label_title
-        
+        print("Get ideas Movie")
         createMainViews()
         // Do any additional setup after loading the view.
     }
